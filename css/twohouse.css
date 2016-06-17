@@ -1,0 +1,75 @@
+input,button{overflow: visible;vertical-align:middle;outline:none}
+.fl{float: left; display: inline;}
+.fr{float: right; display: inline;}
+.w100{ width: 100%;}
+.w1200{ width: 1200px; margin-left: auto; margin-right: auto;}
+i{font-style: normal;}
+.tc{text-align: center;}
+/*tbanner*/
+.tbanner{height: 183px; background: url(../images/banner.jpg) no-repeat top center; position: relative; padding-top: 317px;}
+.tsearch{ width: 795px; height: 50px; margin: 0px auto;}
+.tsearch-con{ width: 570px;position: relative;}
+.tsearch-ins{display: block; width: 570px; height: 50px; box-shadow:0px 15px 10px -15px #ccc; -webkit-box-shadow:0px 15px 10px -15px #ccc; -moz-box-shadow:0px 15px 10px -15px #ccc; -ms-box-shadow:0px 15px 10px -15px #ccc; -0-box-shadow:0px 15px 10px -15px #ccc; overflow: hidden;}
+.tsearch-in{display: block; width: 570px; height: 26px; line-height: 26px; padding: 12px 0; border: none;background: #fff; text-indent: 1em; }
+.tsearch-in.active{box-shadow: 0px 0px 0px #ddd;}
+.search-tips{position: absolute; width: 568px; display: none; border: 1px solid #ff9996}
+.search-tips li{ height: 49px; border-bottom: 1px solid #eee;}
+.search-tips li a{display: block; height: 49px; padding: 0 15px;background: #fff;}
+.search-tips li a:hover{background: #f8f8f8; }
+.search-tips li a p{padding-top: 5px; font-size: 14px; color: #555;}
+.search-tips li a p small{ display: block; font-size: 12px;color: #999999;}
+.search-tips li a span{ float: right;display: inline; line-height: 49px; font-size: 14px; color: #e72520;}
+.tsearch-btn{ width: 225px;}
+.tsearch-a{text-align: center; color: #fff; font-size: 16px; box-shadow: 2px 2px 3px #ddd;font-family:"Microsoft Yahei";}
+.tsearch-a:hover{ color: #fff;}
+.tfind{ width: 88px; height: 50px; border:none; background: #e72520; cursor: pointer;}
+.tfind:hover{background: #cc221d;}
+.tmap{ width: 120px; background: #fca94f; height: 24px; padding: 13px 0; line-height: 24px;}
+.tmap:hover{ background: #e69947;}
+/*title*/
+.ttitle{margin-top: 50px; font-weight: normal; font-size: 40px; color: #555;}
+.ttitle-p{margin-top: 10px; font-size: 18px; color: #999;}
+/*tservice*/
+.tservice ul{padding: 40px 0 0 190px; overflow: hidden;}
+.tservice li{ float: left; display: inline; margin-right: 50px; width: 240px; height: 280px;overflow: hidden;}
+.tservice li.tsell a{display: block;height: 280px; background: #e84b46;}
+.tservice li.tsell a:hover{background: #e72520;}
+.tservice li.tsell h3{font-size: 30px; color: #fff; font-weight: normal;}
+.tservice-p{margin-top: 30px; font-size: 36px; color: #e84b46;}
+/*twuxing*/
+.twuxing{height: 500px; margin-top: 40px; background: url(../images/bg2.jpg) no-repeat center top; overflow: hidden;}
+.twuxing .ttitle{margin-top: 60px; color: #fff;}
+.twuxing li{ float: left; display: inline; width: 20%; margin-top: 100px; text-align: center; cursor: pointer;}
+.twuxing li i{transition:all 0.2s; transform:scale(1);}
+.twuxing li:hover i{transition:all 0.2s; transform:scale(1.1);}
+.twuxing li h3{ font-size: 24px; color: #fff;font-weight: normal; margin: 10px 0;}
+.twuxing li p{font-size: 18px; color: #fff;}
+/*tteam*/
+.tteam{height: 536px; background: url(../images/bg1.jpg) no-repeat center top; overflow: hidden;}
+.tteam .ttitle{margin-top: 65px;;}
+.tteam li{ float: left; display: inline; transition:all .5s; width: 200px; height: 250px; padding: 10px; margin: 65px 0 0 64px; background: #fff;}
+.tteam li:hover{box-shadow: 0 0 15px #a2a1a1; transition:all .5s;}
+.tteam li h3{ font-size: 18px; color: #555;font-weight: normal; margin-top: 5px;}
+.tteam li p{font-size: 14px; color: #999;}
+/*tmove*/
+.tmove{ width: 100%; padding-top: 40px; margin-bottom: -21px; background: #e84b46; overflow: hidden;}
+.tmove-con{height: 449px; width: 576px; padding-left: 624px; background: url(../images/img7.png) no-repeat 195px top;}
+.tmove-con h2{font-size: 36px; color: #fff;font-weight: normal; padding: 40px 0 10px;}
+.tmove-con p{font-size: 60px; color: #fff;}
+.tmove-xz{height: 125px; background: url(../images/wx.png) no-repeat left top; padding-left: 148px; margin-top: 60px; overflow: hidden;}
+.tmove-xz a{display: block; width: 190px; height: 45px; text-align: center; line-height: 45px; color: #999;font-size: 14px; background: url(../images/icon.png) no-repeat #fff; border-radius: 22px;}
+.tmove-xz a.tmove-iph{background-position: 0 -67px; margin: 10px 0 20px;}
+.tmove-xz a.tmove-and{background-position: 0 -24px;}
+.tmove-xz a:hover{background-color: #eee;}
+/*icon*/
+.icon{background: url(../images/icon.png) no-repeat; display: inline-block; vertical-align: middle;}
+.icon.icon1{height:24px;width:18px;background-position:0 0; margin-right: 10px;}
+.icon.icon2{height:44px;width:37px;background-position:0 -24px;}
+.icon.icon3{height:44px;width:37px;background-position:0 -68px;}
+.icon.icon4{height:34px;width:42px;background-position:0 -112px;vertical-align: baseline; margin-right: 20px;}
+.icon.icon5{height:100px;width:115px;background-position:0 -146px;margin-top: 50px; margin-bottom: 20px;}
+.icon.icon6{height:140px;width:140px;background-position:0 -246px;}
+.icon.icon7{height:140px;width:140px;background-position:0 -386px;}
+.icon.icon8{height:140px;width:140px;background-position:0 -526px;}
+.icon.icon9{height:140px;width:140px;background-position:0 -666px;}
+.icon.icon10{height:140px;width:140px;background-position:0 -806px;}

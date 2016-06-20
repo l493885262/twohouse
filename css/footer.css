@@ -1,0 +1,34 @@
+
+
+/* 公用底部 */
+.footer{ background-color:#3C3C3C; height:270px;min-width: 1200px;}
+.footer_nav{ width:1200px; margin:0 auto;border-bottom:1px solid #666; }
+.footer_copy{ height:205px;color:#C2C2C2; width:850px;}
+.footer_copy .footer_daoh{padding:40px 0;}
+.footer_copy .footer_daoh a{color:#C2C2C2; font-size:14px; margin:0 14px;}
+.footer_copy .footer_baq{ font-size:14px; margin-left:14px;}
+.footer_copy .footer_eml{ margin:20px 0 0 14px; }
+.footer_eml span{ margin-left:32px;}
+.footer_xkz{ text-align:center; color:#666; font-size:12px; line-height:54px; width:1200px; margin:0 auto;}
+.footer_ewm{ padding-top:30px;}
+.foot_kf{ width:120px; margin-right:30px;}
+.foot_kf span{ display:block; text-align:center; font-size:14px; color:#C2C2C2; padding-top:6px;}
+.foot_qq{ margin-top:10px; font-size:14px;color:#C2C2C2; }
+.foot_qq li{ padding-bottom:28px;}
+.foot_qq span{ color:#EE9E4F; display:block; margin-top:15px;}
+.footer_eml a{ height:30px; width:28px;}
+.footer_eml em{ font-style:normal; float:left; display:block;}
+.footer_eml p{ margin-right:28px;}
+.footer_eml .p1 span { display:block; float:left;width: 28px;height:30px;background:  url(../images/weibo.png) no-repeat 0 0;  margin-left:15px;}
+.footer_eml .p1:hover span {background: url(../images/weixin.png) no-repeat 0 0;}
+.footer_eml .p2 span { display:block; float:left;width: 28px;height:30px;background:  url(../images/weibo.png) no-repeat 0 -30px; margin-left:15px;}
+.footer_eml .p2:hover span {background: url(../images/weixin.png) no-repeat 0 -30px;}
+
+/*底部二维码*/
+.footer_eml li{float:left; }
+.footer_eml a{position:relative; display:block; margin-right:20px; z-index:20;}
+.footer_eml a div{display:none;}
+.footer_eml a:hover div{position:absolute; left:50px; top:-210px; display:block; width:103px; height:400px; color:#000; overflow:hidden;}
+.footer_eml a:hover div dt{float:left; width:103px;height:100px; display:block;}
+.footer_eml a:hover div dd{float:right; width:103px; height:105px;}
+.footer_eml a img{z-index:999; position:relative;}

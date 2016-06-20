@@ -20,12 +20,37 @@ i{font-style: normal;}
 .search-tips li a p small{ display: block; font-size: 12px;color: #999999;}
 .search-tips li a span{ float: right;display: inline; line-height: 49px; font-size: 14px; color: #e72520;}
 .tsearch-btn{ width: 225px;}
-.tsearch-a{text-align: center; color: #fff; font-size: 16px; box-shadow: 2px 2px 3px #ddd;font-family:"Microsoft Yahei";}
+.tsearch-a{text-align: center; color: #fff; font-size: 16px; box-shadow: 2px 2px 3px #ddd; -webkit-box-shadow: 2px 2px 3px #ddd; -moz-box-shadow: 2px 2px 3px #ddd; -o-box-shadow: 2px 2px 3px #ddd; -ms-box-shadow: 2px 2px 3px #ddd; font-family:"Microsoft Yahei";}
 .tsearch-a:hover{ color: #fff;}
 .tfind{ width: 88px; height: 50px; border:none; background: #e72520; cursor: pointer;}
 .tfind:hover{background: #cc221d;}
 .tmap{ width: 120px; background: #fca94f; height: 24px; padding: 13px 0; line-height: 24px;}
 .tmap:hover{ background: #e69947;}
+
+
+/*rec*/
+.rec{background: #f5f5f5; height: 600px; overflow: hidden;}
+.rec-a{margin-top: 50px; margin-bottom: 20px;}
+.rec-a p{font-size: 14px; color: #999;}
+.rec-a p a{ color: #555; margin-right: 20px;}
+.rec-a p a:hover{ color: #e72520;}
+.rec-list{float: left; display: inline;margin-right: 20px; width: 224px; height: 240px;}
+.rec-list a{display: block;margin-bottom: 10px; width: 224px; height: 168px; overflow: hidden;}
+.rec-list img{ width: 224px; height: 168px; transition:all 0.2s; -webkit-transition:all 0.2s; -moz-transition:all 0.2s; -o-transition:all 0.2s; -ms-transition:all 0.2s;  transform:scale(1); -webkit-transform:scale(1); -moz-transform:scale(1); -o-transform:scale(1); -ms-transform:scale(1);}
+.rec-list img:hover{ transform:scale(1.1); -webkit-transform:scale(1.1); -moz-transform:scale(1.1); -o-transform:scale(1.1); -ms-transform:scale(1.1);}
+.rec-list p{font-size: 14px; color: #999; line-height: 24px;}
+.rec-list p strong{margin-left: 10px; color: #555;font-weight: normal;}
+.rec-list p span{margin-left: 10px;}
+.rec-list p em{float: right; color: #e72520; font-size: 12px;font-style: normal;}
+.rec-list p em i{font-size: 18px;}
+.slideBox{ width:1200; height:300px; overflow:hidden; position:relative;}
+.slideBox .hd{width: 100%; height:12px; overflow:hidden; position:absolute; bottom:5px; z-index:1; }
+.slideBox .hd ul{ overflow:hidden; zoom:1;margin-left: 573px;}
+.slideBox .hd ul li{ float:left; margin-right:8px; width:12px; height:12px;background:#ccc; cursor:pointer; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%;}
+.slideBox .hd ul li.on{ background:#f00; color:#fff; }
+.slideBox .bd{ position:relative; height:100%; z-index:0; }
+.slideBox .bd li{width: 1220px; zoom:1; vertical-align:middle; }
+
 /*title*/
 .ttitle{margin-top: 50px; font-weight: normal; font-size: 40px; color: #555;}
 .ttitle-p{margin-top: 10px; font-size: 18px; color: #999;}
@@ -40,15 +65,15 @@ i{font-style: normal;}
 .twuxing{height: 500px; margin-top: 40px; background: url(../images/bg2.jpg) no-repeat center top; overflow: hidden;}
 .twuxing .ttitle{margin-top: 60px; color: #fff;}
 .twuxing li{ float: left; display: inline; width: 20%; margin-top: 100px; text-align: center; cursor: pointer;}
-.twuxing li i{transition:all 0.2s; transform:scale(1);}
-.twuxing li:hover i{transition:all 0.2s; transform:scale(1.1);}
+.twuxing li i{transition:all 0.2s; -webkit-transition:all 0.2s; -moz-transition:all 0.2s; -o-transition:all 0.2s; -ms-transition:all 0.2s;  transform:scale(1); -webkit-transform:scale(1); -moz-transform:scale(1); -o-transform:scale(1); -ms-transform:scale(1);}
+.twuxing li:hover i{transform:scale(1.1); -webkit-transform:scale(1.1); -moz-transform:scale(1.1); -o-transform:scale(1.1); -ms-transform:scale(1.1);}
 .twuxing li h3{ font-size: 24px; color: #fff;font-weight: normal; margin: 10px 0;}
 .twuxing li p{font-size: 18px; color: #fff;}
 /*tteam*/
 .tteam{height: 536px; background: url(../images/bg1.jpg) no-repeat center top; overflow: hidden;}
-.tteam .ttitle{margin-top: 65px;;}
-.tteam li{ float: left; display: inline; transition:all .5s; width: 200px; height: 250px; padding: 10px; margin: 65px 0 0 64px; background: #fff;}
-.tteam li:hover{box-shadow: 0 0 15px #a2a1a1; transition:all .5s;}
+.tteam .ttitle{margin-top: 65px;}
+.tteam li{ float: left; display: inline; transition:all 0.5s; -webkit-transition:all 0.5s; -moz-transition:all 0.5s; -o-transition:all 0.5s; -ms-transition:all 0.5s; width: 200px; height: 250px; padding: 10px; margin: 65px 0 0 64px; background: #fff;}
+.tteam li:hover{box-shadow: 0 0 15px #a2a1a1; -webkit-box-shadow: 0 0 15px #a2a1a1; -moz-box-shadow: 0 0 15px #a2a1a1; -o-box-shadow: 0 0 15px #a2a1a1; -ms-box-shadow: 0 0 15px #a2a1a1;}
 .tteam li h3{ font-size: 18px; color: #555;font-weight: normal; margin-top: 5px;}
 .tteam li p{font-size: 14px; color: #999;}
 /*tmove*/

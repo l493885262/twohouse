@@ -1,0 +1,30 @@
+/* 公用导航 */
+.header{ background-color:#E72520; height:60px;width: 100%;min-width: 1200px;}
+.header_nav{ width:1200px; margin:0 auto;}
+.xg_dhl li{ float:left; height:60px; line-height:60px;}
+.header_logo a.fl{height:80px;}
+.header_logo a.fl img{height:60px;}
+.xg_dhl li a{font-size:18px; color:#FFFFFF;height:60px;display: block;float: left;padding: 0 16px;}
+.header_logo .curr{background:#CF211D; }
+.xg_dhl li a:hover{ background:#CF211D; color:#FFFFFF;}
+.header_appuser{float:right; height:60px; line-height:60px; }
+.header_appuser a{color:#FFFFFF; font-size:14px; }
+.header_appuser .h-app{background: url(../images/brkf.png) left center no-repeat;padding-left:20px; margin-right:55px;}
+.header_appuser .h-ditu{background: url(../images/dtzf.png) left center no-repeat;padding-left:20px; margin-right:55px;padding-top:2px;}
+.header_appuser .h-denl{background: url(../images/dengl.png) left center no-repeat;padding-left:30px; padding-top:9px; padding-right:5px;}
+.header_appuser .h-zhuc{background: url(../images/last-bg.png) left center no-repeat;padding-left:14px; }
+
+/* 城市切换样式 */
+.select23{position:relative;float:left;text-align:center;z-index:999;}
+.select23 dt{display:inline-block;background: url(../images/sy_xjt.png) no-repeat 70px center;line-height:60px;cursor:pointer;width:80px; padding-right:40px;overflow:hidden;position:relative;z-index:999;-webkit-tap-highlight-color:rgba(255,0,0,0); font-size:18px;}
+.select23 dd{position:absolute;left:10px;top:62px;background:#fff;display:none; -webkit-box-shadow: 1px 1px 1px ;  
+  -moz-box-shadow: 1px 1px 1px ;  
+  box-shadow: 1px 1px 1px ;  font-size:14px; color:#333;}
+.select23 dd ul{width:80px; padding:5px 0;}
+.select23 dd ul li{ height:24px;padding:5px 0;}
+.select23 dd ul li a{display:block;font-size:14px;}
+.dt_zf{ position:relative; top:45px; z-index:20}
+.dt_zf img{ width:100%; height:100%;}
+.select23 .hosg{ color:#FF0000;}
+
+

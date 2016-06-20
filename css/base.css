@@ -1,0 +1,15 @@
+/* 全局CSS定义 */
+body { font-family: "Microsoft YaHei", "微软雅黑","HelveticaNeue"; margin:0 auto; padding:0; color:#333; }
+div, form, ul, ol, li, span, p, dl, dt, dd{ margin:0; padding:0; border:0; }
+img, a img { border:0; margin:0; padding:0; }
+h1, h2, h3, h4, h5, h6 { margin:0; padding:0; }
+ul, ol, li { list-style:none }
+table, td, input {padding:0; font-family: "Microsoft YaHei", "微软雅黑","HelveticaNeue"; }
+/* 默认链接颜色 */
+a {color:#333; text-decoration:none }
+a:hover { color:#e72520; text-decoration: none; }
+/* common */
+.clear{ clear:both; }
+.clearfix:after, .clf:after{content: "";display: block;clear: both;overflow: hidden; height:0;}
+.fl{ float: left;}
+.fr{ float: right;}
